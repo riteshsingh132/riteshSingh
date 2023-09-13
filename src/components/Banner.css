@@ -1,0 +1,30 @@
+.banner{
+    /* margin-top: 100px; */
+    padding: 145px 0;
+    color: gray;
+   
+}
+
+
+span{
+    color:red
+}
+
+.main-btn{
+    
+    text-decoration: none;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    border: 2px solid gray;
+    color: gray;
+    font-weight: 500;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 6px 20px;
+    
+}
+
+.col-sm-6{
+    padding: 20px;
+}
