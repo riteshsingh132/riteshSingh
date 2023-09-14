@@ -9,7 +9,7 @@ function Banner() {
                 <div className='col-sm-12 text-center'>
                         <h6>Welcome to My world</h6>
                         <h1>I'm Ritesh Singh <br/>
-                        <span>React Developer,</span> <br/>based in India.</h1>
+                        <span className='subtitle'>Software Developer,</span> <br/>based in India.</h1>
                         <div className='mt-4'>
                             <a className='main-btn' href=''>Download CV</a>
                         </div>

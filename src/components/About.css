@@ -38,3 +38,23 @@
     background-color: purple;
 
 }
+
+.abutwrapper .nav-item li{
+    color: gray;
+    font-size: 16px;
+   margin-bottom: 15px;
+    font-weight: 300;
+    list-style: none;
+    text-decoration: none;
+}
+.abutwrapper li a{
+font-weight: 500;
+display: block;
+color: gray;
+text-decoration: none;
+
+}
+
+.abutwrapper .subtitle{
+    color: #cc2b5e;
+}

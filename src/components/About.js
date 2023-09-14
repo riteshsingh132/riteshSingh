@@ -18,7 +18,7 @@ function About() {
                             <div className='my-3 my-lg-0'>
                                 <span className='subtitle'>My About Details</span>
                                 <h2>About Me</h2>
-                                <p>My Name is Ritesh Sigh, And I am a Software Developper</p>
+                                <p>My Name is Ritesh Singh, And I am a Software Developper</p>
                             </div>
                             <div className='pt-4'>
                                 <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className=" mb-3 justify-content-center justify-content-sm-between" >
@@ -41,9 +41,19 @@ function About() {
 
                                     </Tab>
                                     <Tab eventKey="home" title="Exprience" className='nav-item'>
-
-                                        <div className='justify-content-end'>{"95%"}</div>
-                                        <ProgressBar striped now={95} label={`${60}%`} visuallyHidden />
+                                        
+                                        <ul className='text-start ps-0'>
+                                            <li>
+                                                <a href='#'>React Developer<span> Harvest Design</span></a> May'2023 - Current
+                                            </li>
+                                            <li>
+                                                <a href='#'>React Developer<span> Nykaa.com</span></a> Oct'2021 - Apr'2023
+                                            </li>
+                                            <li>
+                                                <a href='#'>React Developer<span> Limeroad.com</span></a> Jan'2021 -Oct'2021 
+                                            </li>
+                                        </ul>
+                                        
                                     </Tab>
                                     <Tab eventKey="education" title="Education" className='nav-item'>
 

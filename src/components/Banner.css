@@ -1,17 +1,16 @@
 .banner{
     /* margin-top: 100px; */
-    padding: 145px 0;
+    padding: 150px 0 140px 0;
     color: gray;
    
 }
 
 
-span{
+.banner span{
     color:red
 }
 
 .main-btn{
-    
     text-decoration: none;
     border-radius: 50px;
     transition: all .4s ease-in-out;
@@ -27,4 +26,8 @@ span{
 
 .col-sm-6{
     padding: 20px;
+}
+
+.banner .subtitle{
+    color: #cc2b5e;
 }
