@@ -24,20 +24,20 @@ function About() {
                                 <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className=" mb-3 justify-content-center justify-content-sm-between" >
                                     <Tab eventKey="profile" title="Main Skll" className='nav-item'>
                                         <div className='d-flex justify-content-between'>
-                                            <h6>DESIGNING</h6>
-                                            <div className='justify-content-end'>{"95%"}</div>
+                                            <h6>REACT.JS</h6>
+                                            <div className='justify-content-end'>{"75%"}</div>
                                         </div>
-                                        <ProgressBar animated now={95} label={`${60}%`} visuallyHidden />
+                                        <ProgressBar animated now={75} label={`${60}%`} visuallyHidden />
                                         <div className='d-flex justify-content-between'>
-                                            <h6>DESIGNING</h6>
+                                            <h6>JAVASCRIPT</h6>
+                                            <div className='justify-content-end'>{"70%"}</div>
+                                        </div>
+                                        <ProgressBar animated now={70} label={`${60}%`} visuallyHidden />
+                                        <div className='d-flex justify-content-between'>
+                                            <h6>HTML/CSS</h6>
                                             <div className='justify-content-end'>{"85%"}</div>
                                         </div>
                                         <ProgressBar animated now={85} label={`${60}%`} visuallyHidden />
-                                        <div className='d-flex justify-content-between'>
-                                            <h6>DESIGNING</h6>
-                                            <div className='justify-content-end'>{"80%"}</div>
-                                        </div>
-                                        <ProgressBar animated now={80} label={`${60}%`} visuallyHidden />
 
                                     </Tab>
                                     <Tab eventKey="home" title="Exprience" className='nav-item'>

@@ -16,7 +16,7 @@ function Services() {
                         <div className='col-lg-4 col-md-6 mb-4'>
                             <div className='card'>
                                 <div className='card-body text-md-start text-center'>
-                                    <h3>Business Strategy</h3>
+                                    <h3>UI/UX Designing</h3>
                                     <p>this is services tab</p>
                                 </div>
                             </div>
@@ -25,7 +25,7 @@ function Services() {
                         <div className='col-lg-4 col-md-6 mb-4'>
                             <div className='card'>
                                 <div className='card-body text-md-start text-center'>
-                                    <h3>Business Strategy</h3>
+                                    <h3>Web Development</h3>
                                     <p>this is services tab</p>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ function Services() {
                         <div className='col-lg-4 col-md-6 mb-4'>
                             <div className='card'>
                                 <div className='card-body text-md-start text-center'>
-                                    <h3>Business Strategy</h3>
+                                    <h3>React Frontend</h3>
                                     <p>this is services tab</p>
                                 </div>
                             </div>
@@ -45,16 +45,16 @@ function Services() {
                         <div className='col-lg-4 col-md-6 mb-4'>
                             <div className='card'>
                                 <div className='card-body text-md-start text-center'>
-                                    <h3>Business Strategy</h3>
+                                    <h3>Responsive Website</h3>
                                     <p>this is services tab</p>
                                 </div>
                             </div>
                             
                         </div>
-                        <div className='col-lg-4 col-md-6 mb-4'>
+                        <div className='col-lg-4 col-md-6 mb-4 '>
                             <div className='card'>
                                 <div className='card-body text-md-start text-center'>
-                                    <h3>Business Strategy</h3>
+                                    <h3>Performance Optimaiztion</h3>
                                     <p>this is services tab</p>
                                 </div>
                             </div>

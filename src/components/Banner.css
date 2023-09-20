@@ -1,7 +1,9 @@
 .banner{
-    /* margin-top: 100px; */
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
     padding: 150px 0 140px 0;
-    color: gray;
+    color: grey;
+  
    
 }
 
@@ -29,5 +31,66 @@
 }
 
 .banner .subtitle{
-    color: #cc2b5e;
+    /* color: #cc2b5e; */
 }
+
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(50%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+ 
+}
+
+  @keyframes slideleft {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+
+  @keyframes shiver {
+    0% { transform: translateX(-4px); }
+    50% { transform: translateX(4px); }
+    100% { transform: translateX(-4px); }
+  }
+
+  /* @keyframes bellAnimation {
+    0% {
+      transform: scaleY(1);
+    }
+    50% {
+      transform: scaleY(0.8) scaleX(1.2);
+    }
+    100% {
+      transform: scaleY(1);
+    }
+  }
+  
+  .bell {
+    display: inline-block;
+    animation: bellAnimation 0.5s ease-in-out infinite;
+  } */
+
+  /* @keyframes swingAnimation {
+    0% {
+      transform: translateX(0) rotate(-20deg);
+    }
+    50% {
+      transform: translateX(50px) rotate(0deg);
+    }
+    100% {
+      transform: translateX(0) rotate(20deg);
+    }
+  }
+  
+  .bell {
+    display: inline-block;
+    animation: swingAnimation 2s ease-in-out infinite;
+  } */

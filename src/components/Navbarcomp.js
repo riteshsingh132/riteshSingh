@@ -21,7 +21,7 @@ function Navbarcomp() {
                         </Nav>
                             <Nav.Link className='nav-link' href="#home">Home</Nav.Link>
                             <Nav.Link className='nav-link' href="#about">About</Nav.Link>
-                            <Nav.Link className='nav-link' href="#skill">Skills</Nav.Link>
+                            <Nav.Link className='nav-link' href="#services">Skills</Nav.Link>
                             <Nav.Link className='nav-link' href="#project">Project</Nav.Link>
                             <a className='main-btn' type='button' href="#link">Hire Me</a>
                     </Navbar.Collapse>
