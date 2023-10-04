@@ -12,14 +12,15 @@
 }
 
 .servicewrapper .card:hover{
-    box-shadow: 0px 2px 70px 0 rgb(253 71 102/5%);
-    transform: translate(-5px);
+    box-shadow: 0px 2px 70px 0 rgba(191, 243, 3, 0.05);
+    transform: translateY(-5px);
 }
 
 
 
 .servicewrapper h2,h3{
     color: white;
+    font-size: 25px;
 }
 .servicewrapper p{
     color: gray;

@@ -1,7 +1,7 @@
 .banner{
     margin-top: 20px;
     /* margin-bottom: 20px; */
-    padding: 150px 0 140px 0;
+    padding: 150px 0 100px 0;
     color: grey;
   
    
@@ -25,6 +25,8 @@
     padding: 6px 20px;
     
 }
+
+
 
 .col-sm-6{
     padding: 20px;
@@ -55,11 +57,18 @@
   }
   
 
-  @keyframes shiver {
+  /* @keyframes shiver {
+    0% { transform: translateX(-4px); }
+    50% { transform: translateX(4px); }
+    100% { transform: translateX(-4px); }
+  } */
+ 
+  @keyframes animatBox{
     0% { transform: translateX(-4px); }
     50% { transform: translateX(4px); }
     100% { transform: translateX(-4px); }
   }
+
 
   /* @keyframes bellAnimation {
     0% {
@@ -94,3 +103,31 @@
     display: inline-block;
     animation: swingAnimation 2s ease-in-out infinite;
   } */
+
+  @keyframes bounce{
+
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0); /* Initial and final position: no movement */
+      color: gray;
+    }
+    40% {
+      transform: translateY(-20px); /* Bouncing up */
+      color: purple;
+ 
+    }
+    60% {
+      transform: translateY(-15px);/* Bouncing down */
+      color: yellow;
+     
+      
+    }
+
+  }
+
+  .bounce-letter{
+    animation: bounce 1.2s infinite;
+ 
+    /* color: yellow; */
+    display: inline-block;
+    
+  }

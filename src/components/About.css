@@ -26,6 +26,7 @@
 
 .abutwrapper .nav-tabs .nav-link.active{
     background-color: red;
+    margin: 3px 0;
 }
 
 .abutwrapper .progress{
@@ -58,3 +59,25 @@ text-decoration: none;
 .abutwrapper .subtitle{
     color: #cc2b5e;
 }
+
+
+/* Mobile devices (portrait and landscape) */
+@media only screen and (max-width: 767px) {
+    /* Styles for mobile devices go here */
+   
+  }
+  
+  /* Tablets and small laptops */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* Styles for tablets and small laptops go here */
+  }
+  
+  /* Standard laptops and desktops */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* Styles for laptops and desktops go here */
+  }
+  
+  /* Large screens and high-resolution displays */
+  @media only screen and (min-width: 1200px) {
+    /* Styles for large screens go here */
+  }

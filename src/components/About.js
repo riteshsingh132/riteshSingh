@@ -11,7 +11,7 @@ function About() {
             <section id='about' className='abutwrapper'>
                 <div className='container'>
                     <div className='row justify-content-between align-item-center' >
-                        <div className='col-lg-5 mb-4 mb-lg-0 ' >
+                        <div className='col-lg-5 mb-4 mb-lg-0' >
                             <img src={ritImg} className='img-fluid rounded-3' />
                         </div>
                         <div className='col-lg-7 ps-lg-5 text-center text-lg-start'>
